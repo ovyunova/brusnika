@@ -1,0 +1,101 @@
+////////////////////////////
+// Layout
+////////////////////////////
+
+
+
+.dates {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.dates--pickers {
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+
+.dates--settings {
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+////////////////////////////
+// JQuery UI
+////////////////////////////
+
+.ui-state-default.ui-state-active {
+  background: rgb(246, 246, 246);
+  color: rgb(69, 69, 69);
+}
+
+.active.ui-datepicker-today .ui-state-default {
+  box-shadow: inset 0 0 8px 2px $selection-color;
+  background: $today;
+  color: black;
+}
+
+.active > a.ui-state-default,
+.active > a.ui-state-default.ui-state-active {
+  background: $selection-color;
+  border: 1px solid $selection-color;
+  color: #fff;
+}
+
+// Flush tables
+/*
+.ui-datepicker {
+  padding: 0;
+}
+.ui-datepicker table {
+  margin: 0;
+  border-radius: 0;
+}
+.ui-datepicker td {
+  padding: 0;
+}
+.ui-datepicker td .ui-state-default {
+  border: 0;
+}
+.ui-datepicker-multi .ui-datepicker-group table {
+  margin: 0 0 1px;
+  width: 100%;
+}
+*/
+
+// Restyled header
+.ui-widget-header {
+  background: transparent;
+  border-width: 0 0 1px 0;
+}
+.ui-widget-header .ui-state-hover {
+  border: transparent;
+}
+.ui-datepicker .ui-datepicker-prev-hover, .ui-datepicker .ui-datepicker-next-hover {
+  top: 2px;
+}
+.ui-datepicker .ui-datepicker-prev-hover {
+  left: 2px;
+}
+.ui-datepicker .ui-datepicker-next-hover {
+  right: 2px;
+}
+
+// Alternate icons
+.ui-datepicker .ui-datepicker-prev span {
+  background-position: -96px 0;
+}
+.ui-datepicker .ui-datepicker-next span {
+  background-position: -32px 0;
+}
+
+// Larger cells
+.ui-datepicker th {
+  padding: 1em 0;
+  background: transparent;
+
+}
+.ui-datepicker td .ui-state-default {
+  padding: .5em;
+}
