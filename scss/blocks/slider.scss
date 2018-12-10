@@ -1,0 +1,49 @@
+.promo {
+
+  width: 100%;
+  height: 500px;
+
+  &__inner {
+    opacity: 0.48;
+    background-color: $gray-dark;
+    z-index: 0;
+
+  }
+
+}
+
+.slider {
+  height: 500px;
+
+  &__item {
+
+  }
+
+  &__item-title {
+
+  }
+
+  &__item-subtitle {
+
+  }
+}
+.slider-item {
+
+
+  &__title {
+    color: $main-color;
+
+    width: 700px;
+
+  }
+
+  &__subtitle {
+    color: $main-color;
+
+    width: 635px;
+  }
+
+  &__map {
+
+  }
+}

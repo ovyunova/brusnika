@@ -1,11 +1,76 @@
 .header {
-	&__info {
-		color: #000;
-	}
-	&__info-text {
-	}
-	&__inner {
-	}
-	&__btn {
-	}
+
+  height: 109px;
+  background-color: $main-color-dark;
+  box-shadow: 10px 0 13px 1px rgba(210, 210, 210, 0.5);
+
+  &__info {
+    margin: auto;
+    width: 1028px;
+    height: 53px;
+
+  }
+
+  &__info-text {
+    display: flex;
+    justify-content: space-between;
+
+
+    div {
+      margin: 0 58pх;
+
+    }
+  }
+
+  &__inner {
+    display: flex;
+    height: 109px;
+    background-color: $main-color;
+  }
+
+  &__btn {
+  }
+}
+
+.logo {
+
+  img {
+    width: 86px;
+    height: 47px;
+  }
+
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.nav {
+
+  &__link {
+    text-decoration: none;
+  }
+
+}
+
+.nav-list {
+
+
+  &__item {
+    display: inline-block;
+    list-style-type: none;
+
+  }
+}
+
+.btn {
+  width: 195px;
+  height: 60px;
+  box-shadow: 0 2px 8px 0 rgba(183, 183, 183, 0.5);
+  background-color: $second-color;
+
+  &--primary {
+  text-decoration: none;
+  }
+
 }

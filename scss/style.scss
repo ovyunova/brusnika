@@ -1,5 +1,15 @@
 @import 'variables';
 @import 'fonts';
 
+* {
+  margin: auto;
+  box-sizing: border-box;
+}
+
 @import 'blocks/header';
+@import 'blocks/slider';
 @import 'blocks/page';
+
+
+
+
