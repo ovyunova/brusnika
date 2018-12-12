@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'NotoSans';           /* название одно */
+  src: url('../fonts/NotoSans-Regular.ttf') format('truetype'); /* разные файлы */
+  font-weight: 400;              /* разная плотность */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSans';           /* название одно */
+  src: url('../fonts/NotoSans-Bold.ttf') format('truetype'); /* разные файлы */
+  font-weight: 700;              /* разная плотность */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSerif';           /* название одно */
+  src: url('../fonts/NotoSerif-Regular.ttf') format('truetype'); /* разные файлы */
+  font-weight: 400;              /* разная плотность */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSerif';           /* название одно */
+  src: url('../fonts/NotoSerif-Bold.ttf') format('truetype'); /* разные файлы */
+  font-weight: 700;              /* разная плотность */
+  font-style: normal;
+}

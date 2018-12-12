@@ -1,23 +1,54 @@
 .about {
+
   &--left {
+
+    .__image {
+      width: 478px;
+      height: 717px;
+    }
   }
+
   &--right {
+
+    .__image {
+      width: 680px;
+      height: 454px;
+    }
   }
-  &__image {
-  }
+
   &__description {
   }
   &__text {
+
+    font-family: $font-family-second;
+    font-size: $font-size - 2px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
   }
   &__btns {
   }
 }
 
 .title-row {
+
   &__lead {
+    font-family: $font-family-second;
+    font-size: $font-size;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: normal;
+    color: $gray-dark;
   }
-  &__title {
-  }
+
   &__heading {
+      font-family: $font-family-second;
+      font-size: $font-size + 20px;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-style: normal;
+
   }
 }

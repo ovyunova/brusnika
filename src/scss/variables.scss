@@ -5,12 +5,14 @@ $second-color-light:  #a2cea9;
 $warning-color:       #FDC05D;
 
 $gray-light:          #F2F2F2;
-$gray-dark:           #31341e;
+$gray-dark:           #4b4b4b;
 
 $text-color:          $gray-dark;
 
-$font-family:         -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
-$font-size:           14px;
+$font-family-main:    'NotoSerif', serif;
+$font-family-second:  'NotoSans', sans-serif;
+$font-size:           16px;
+$font-size-h1:        60px;
 $line-height:         1.4;
 
 $screen-xs:           480px;

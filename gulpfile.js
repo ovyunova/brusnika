@@ -43,7 +43,7 @@ function copyHTML() {
 exports.copyHTML = copyHTML;
 
 function copyFonts() {
-  return src(`${dir.src}fonts/**/*.{woff2,woff}`)
+  return src(`${dir.src}fonts/**/*.ttf`)
     .pipe(plumber())
     .pipe(dest(`${dir.build}fonts/`));
 }

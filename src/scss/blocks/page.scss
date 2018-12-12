@@ -1,3 +1,9 @@
-.page {
-  font-family: $font-family;
+body {
+  margin: auto;
+  background-color: $main-color;
+
+}
+
+.visually-hidden {
+  display: none;
 }
