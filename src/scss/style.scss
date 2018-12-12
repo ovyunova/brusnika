@@ -1,0 +1,13 @@
+@import 'variables';
+@import 'fonts';
+
+@import 'node_modules/normalize.css/normalize';
+
+@import 'blocks/header';
+@import 'blocks/slider';
+@import 'blocks/button';
+@import 'blocks/about';
+@import 'blocks/page';
+
+
+body {background-color: $main-color;}

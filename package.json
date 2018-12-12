@@ -1,26 +1,34 @@
 {
-  "name": "EpicSkills-start-kit",
+  "name": "Brusnika",
   "version": "1.0.0",
   "description": "Start project.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gulp"
   },
-  "author": "Nikolay Gromov",
+  "author": "Vyunova Olga",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/epixx/start-kit"
+    "url": ""
   },
   "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
     "autoprefixer": "^9.0.2",
     "browser-sync": "^2.14.0",
     "del": "^3.0.0",
     "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
     "gulp-notify": "^3.0.0",
     "gulp-plumber": "^1.1.0",
     "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.1",
-    "gulp-sourcemaps": "^2.6.1"
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.1"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
   }
 }

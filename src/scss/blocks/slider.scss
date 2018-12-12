@@ -1,0 +1,58 @@
+.promo {
+
+  opacity: 0.48;
+  background-color: $gray-dark;
+  z-index: 0;
+
+
+  &__inner {
+    margin: auto;
+
+    width: $screen-main;
+    height: 500px;
+
+  }
+
+}
+
+.slider {
+  margin: auto;
+  box-sizing: border-box;
+
+  height: 500px;
+
+  &__item {
+    margin-left: 5%;
+
+  }
+
+  &__item-title {
+
+  }
+
+  &__item-subtitle {
+
+  }
+}
+
+.slider-item {
+  width: 40%;
+
+
+  &__title {
+    margin-top: 0%;
+
+    color: $main-color;
+
+
+  }
+
+  &__subtitle {
+
+    color: $main-color;
+  }
+
+  &__map {
+
+  }
+}

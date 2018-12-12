@@ -1,38 +1,48 @@
 .header {
-
-  height: 109px;
-  background-color: $main-color-dark;
-  box-shadow: 10px 0 13px 1px rgba(210, 210, 210, 0.5);
+  margin: auto;
+  box-sizing: border-box;
+  height: 165px;
+  // box-shadow: 10px 0 13px 1px rgba(210, 210, 210, 0.5);
 
   &__info {
-    margin: auto;
-    width: 1028px;
     height: 53px;
+    background-color: $main-color-dark;
 
   }
 
   &__info-text {
+    margin: auto;
+    width: 90%;
+
     display: flex;
     justify-content: space-between;
 
-
     div {
-      margin: 0 58pх;
+      margin: 0 1%;
 
     }
   }
 
   &__inner {
-    display: flex;
+    margin: auto;
+
+    width: 90%;
     height: 109px;
+
+    display: flex;
+    justify-content: space-between;
+
     background-color: $main-color;
   }
 
   &__btn {
+    margin-right: 1%;
+
   }
 }
 
 .logo {
+  margin-left: 1%;
 
   img {
     width: 86px;
@@ -46,6 +56,7 @@
 }
 
 .nav {
+  width: 70%;
 
   &__link {
     text-decoration: none;
@@ -54,23 +65,14 @@
 }
 
 .nav-list {
-
+  display: flex;
+  justify-content: space-between;
 
   &__item {
+
     display: inline-block;
     list-style-type: none;
 
   }
 }
 
-.btn {
-  width: 195px;
-  height: 60px;
-  box-shadow: 0 2px 8px 0 rgba(183, 183, 183, 0.5);
-  background-color: $second-color;
-
-  &--primary {
-  text-decoration: none;
-  }
-
-}
