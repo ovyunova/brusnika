@@ -1,9 +1,17 @@
 .btn {
-  display: block;
+
+  margin: auto;
+  padding: 8px 28px;
+  box-sizing: border-box;
 
   width: 195px;
   height: 60px;
 
+  font-family: $font-family-second;
+  font-size: $font-size;
+  line-height: 2.75;
+
+  color: $main-color;
 
   &--primary {
 

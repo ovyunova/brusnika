@@ -20,6 +20,9 @@
     div {
       margin: 0 1%;
 
+      font-family: $font-family-second;
+      font-size: $font-size - 2px;
+
     }
   }
 
@@ -67,6 +70,10 @@
 .nav-list {
   display: flex;
   justify-content: space-between;
+
+  font-family: $font-family-second;
+  font-size: $font-size;
+  text-transform: lowercase;
 
   &__item {
 
