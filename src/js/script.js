@@ -236,4 +236,13 @@ $(function(){
 
 $("#start_date").on("change", function() {
  console.log( $("#start_date").value )
-})
+
+});
+
+$('.slider').slick({
+  arrows: false,
+  autoplay : true,
+  speed: 300
+});
+
+

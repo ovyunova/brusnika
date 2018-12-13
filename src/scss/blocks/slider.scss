@@ -14,18 +14,22 @@
 }
 
 .slider-item {
-  background: $gray-dark url(../img/slider-main_01.jpg) 0 no-repeat;
-  height: 500px;
 
-  position: relative;
-  z-index: 1;
+  // height: 500px;
 
   margin: auto;
 
-  &:before {
+  &__primary {
+    background: $gray-dark url(../img/slider-main_01.jpg) 0 no-repeat;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    z-index: 1;
+
+    &:before {
     content: '';
     position: absolute;
-    z-index: 5;
+    z-index: 3;
     top: 0;
     left: 0;
     width: 100%;
@@ -34,9 +38,28 @@
     opacity: 0.48;
     background-color: $gray-dark;
   }
+  }
 
-  &:last-child {
+  &__secondary {
     background: $gray-dark url(../img/slider_main_02.jpg) 0 no-repeat;
+    height: 500px;
+
+    position: relative;
+    z-index: 1;
+
+
+    &:before {
+    content: '';
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+
+    opacity: 0.48;
+    background-color: $gray-dark;
+  }
   }
 
 

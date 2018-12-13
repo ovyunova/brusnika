@@ -57,7 +57,7 @@ function copyIMG() {
 exports.copyIMG = copyIMG;
 
 function javascript() {
-  return src(`${dir.src}js/script.js`)
+  return src(`${dir.src}js/**.js`)
     .pipe(plumber())
     .pipe(babel({
         presets: ['@babel/env']
