@@ -1,30 +1,42 @@
 .btn {
-
-  margin: auto;
-  padding: 8px 28px;
-  box-sizing: border-box;
-
-  width: 195px;
-  height: 60px;
-
-  font-family: $font-family-second;
-  font-size: $font-size;
-  line-height: 2.75;
-
+  padding: 0;
+  margin: 0;
   color: $main-color;
+  border: 0;
+  box-shadow: none;
+  background-color: #69b073;
+  box-shadow: 0 2px 8px 0 rgba(183, 183, 183, 0.5);
+  height: 60px;
+  line-height: 60px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  padding: 0 27px;
+  font-size: 16px;
+  color: #ffffff;
 
-  &--primary {
-
+  &:hover {
     text-decoration: none;
+    color: #fff;
+  }
 
-    box-shadow: 0 2px 8px 0 rgba(183, 183, 183, 0.5);
-    background-color: $second-color;
+  &:active {
+    text-decoration: none;
+    color: #fff;
+  }
 
+  &:focus {
+    outline: 0;
   }
 
   &--secondary {
-    text-decoration: none;
+    background-color: transparent;
+    color: #180000;
+    box-shadow: none;
 
+    &:hover {
+      color: #180000;
+    }
   }
 
 }
