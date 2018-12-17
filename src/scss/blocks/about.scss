@@ -1,21 +1,22 @@
 .about {
-  padding-top: 150px;
+  padding-top: 120px;
 
   &__item {
     padding-bottom: 100px;
 
     &--left {
 
+      .about__description {
+        padding-top: 80px;
+        padding-left: 50px;
+      }
+
       .about__image {
-        margin-right: 120px;
+        margin-right: 50px;
       }
     }
 
     &--right {
-
-      .about__image {
-        margin-left: 120px;
-      }
 
       .about__description {
         padding-top: 80px;
@@ -23,12 +24,17 @@
 
       .about__text {
         margin-left: 100px;
+        padding-right: 90px;
+      }
+
+      .about__image {
+        margin-right: 40px;
       }
     }
   }
 
   &__image {
-    padding: 20px;
+    padding: 22px 27px;
     box-shadow: 0 1px 10px 5px rgba(235, 235, 235, 0.5);
     background-color: #ffffff;
 
@@ -39,8 +45,9 @@
   }
 
   &__description {
-    padding-top: 150px;
+    padding-top: 80px;
   }
+
   &__text {
     font-family: $font-family-second;
     font-size: $font-size - 2px;
@@ -50,6 +57,8 @@
     line-height: 1.71;
     letter-spacing: normal;
     margin-left: 150px;
+    margin-bottom: 40px;
+    padding-right: 150px;
   }
 
   &__btns {
@@ -67,13 +76,15 @@
     text-transform: uppercase;
     font-style: normal;
     color: $gray-dark;
+    margin-top: 0px;
   }
 
   &__heading {
-      font-family: $font-family-second;
-      font-size: $font-size + 20px;
-      font-weight: bold;
-      text-transform: uppercase;
-      font-style: normal;
+    font-family: $font-family-second;
+    font-size: $font-size + 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: normal;
+    margin-top: 20px;
   }
 }
