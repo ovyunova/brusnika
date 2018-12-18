@@ -1338,6 +1338,9 @@ img {
           box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 5px rgba(235, 235, 235, 0.5);
   background-color: #ffffff; }
 
+.container {
+  max-width: 90%; }
+
 .header {
   margin: auto;
   -webkit-box-sizing: border-box;
@@ -1478,7 +1481,9 @@ img {
   text-align: center;
   padding: 0 27px;
   font-size: 16px;
-  color: #ffffff; }
+  color: #ffffff;
+  font-family: "NotoSans", sans-serif;
+  font-size: 14px; }
   .btn:hover {
     text-decoration: none;
     color: #fff; }
@@ -1496,19 +1501,23 @@ img {
       color: #180000; }
 
 .about {
-  padding-top: 150px; }
+  padding-top: 120px; }
   .about__item {
     padding-bottom: 100px; }
+    .about__item--left .about__description {
+      padding-top: 80px;
+      padding-left: 50px; }
     .about__item--left .about__image {
-      margin-right: 120px; }
-    .about__item--right .about__image {
-      margin-left: 120px; }
+      margin-right: 50px; }
     .about__item--right .about__description {
       padding-top: 80px; }
     .about__item--right .about__text {
-      margin-left: 100px; }
+      margin-left: 100px;
+      padding-right: 90px; }
+    .about__item--right .about__image {
+      margin-right: 40px; }
   .about__image {
-    padding: 20px;
+    padding: 22px 27px;
     -webkit-box-shadow: 0 1px 10px 5px rgba(235, 235, 235, 0.5);
             box-shadow: 0 1px 10px 5px rgba(235, 235, 235, 0.5);
     background-color: #ffffff; }
@@ -1516,7 +1525,7 @@ img {
       -o-object-fit: contain;
          object-fit: contain; }
   .about__description {
-    padding-top: 150px; }
+    padding-top: 80px; }
   .about__text {
     font-family: "NotoSans", sans-serif;
     font-size: 14px;
@@ -1525,7 +1534,9 @@ img {
     font-stretch: normal;
     line-height: 1.71;
     letter-spacing: normal;
-    margin-left: 150px; }
+    margin-left: 150px;
+    margin-bottom: 40px;
+    padding-right: 150px; }
   .about__btns {
     margin-left: 150px; }
   .about__lead {
@@ -1534,12 +1545,14 @@ img {
     font-weight: bold;
     text-transform: uppercase;
     font-style: normal;
-    color: #4b4b4b; }
+    color: #4b4b4b;
+    margin-top: 0px; }
   .about__heading {
     font-family: "NotoSans", sans-serif;
     font-size: 36px;
     font-weight: bold;
     text-transform: uppercase;
-    font-style: normal; }
+    font-style: normal;
+    margin-top: 20px; }
 
 /*# sourceMappingURL=style.css.map */
